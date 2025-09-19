@@ -15,5 +15,26 @@ Cargo.lock
 .idea
 *.iml
 
+# Rust Executables:
+*.exe 
+*.dll
+*.so 
+*.dylib
+*.rlib
+*.rmeta
+*.bin
+*.o 
+*.a
+*.obj
+
+# Rustc output binaries (same name as source file, no extension)
+# Ignore any file with no extension at the repo root
+/*
+
+# But keep actual source files (Rust, Markdown, etc.)
+!/*.rs
+!/*.toml
+!/*.md
+
 # Ignore file for editors like Helix
 .ignore
